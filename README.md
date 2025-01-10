@@ -71,3 +71,4 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 
 ### **2. Measure (Ukur)**
+*Continue....*
