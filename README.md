@@ -10,9 +10,31 @@ Merchant merchant tersebut menggunakan produk yang ada pada AstraPay Bisnis.
 Produk tersebut adalah Merchant QRIS (Merchant yang mengguanakan QRIS AstraPay sebgai penerima pembayaran), Payment Channel (Merchant yang menggunakan AstraPay sebagai alat pembayaran), Astrapay Disbursement (Merchant yang melakukan transfer dana ke banyak tujuan), dan Mitra AstraPay (Merchant yang terafiliasi dengan AstraPay untuk menjual produk AstraPay kepada yang belum menggunakan AstraPay).
 Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam AstraPay Bisnis (Payment Channel). Khususnya pada aplikasi Moxa yang telah diunduh oleh 5jt lebih dari playstore terdapat fitur PPOB. AstraPay dengan AstraPay bisnis nya dapat melihat peluang bisnis yang ada pada aplikasi Moxa tersebut yang menjual produk PPOB yang mungkin serupa dengan yang ada pada AstraPay.
 
-### **1. Define (Definisikan)**
-- **Problem Statement**:
+## **1. Define (Definisikan)**
+- ### **Problem Statement**:
   AstraPay ingin mengembangkan dan meluncurkan **Biller Open API** untuk memperluas jaringan merchant dan meningkatkan **NOT (Number of Transactions)** serta **GTV (Gross Transaction Value)**, dengan memanfaatkan fitur PPOB dan memungkinkan integrasi lebih mudah dengan aplikasi pihak ketiga (termasuk aplikasi seperti Moxa yang sudah memiliki 5 juta pengguna).
+- ### **Ringkasan SIPOC:**
+
+| **Supplier**                                        | **Inputs**                                                    | **Process**                                                                                                                                       | **Outputs**                                                                            | **Customer**                                      |
+|-----------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| Tim Pengembang AstraPay (Product Team)              | Data Transaksi PPOB                                          | 1. Identifikasi Kebutuhan                                                                                                                      | Biller Open API                                                                    | Merchant yang Terhubung dengan AstraPay         |
+| Merchant (Moxa, Wanda, MotorkuX)                    | Kebutuhan dari Merchant                                       | 2. Perencanaan Pengembangan API                                                                                                                  | Dokumentasi API                                                                    | Aplikasi Pihak Ketiga (Moxa)                    |
+| Tim Manajemen Produk (Partnership)                  | Spesifikasi Fungsional API                                    | 3. Desain dan Pengembangan API                                                                                                                   | Peningkatan Adopsi Merchant                                                          | Pengguna Akhir (End-User)                       |
+| Tim Keuangan (FBAT)                                 | Dokumentasi API                                              | 4. Penyusunan Dokumentasi API                                                                                                                    | Laporan Feedback                                                                    | Tim Manajemen AstraPay                         |
+| Penyedia Teknologi dan Infrastruktur (Tech & Infra) | Platform Teknologi                                           | 5. Pengujian API                                                                                                                                 |                                                                                      |                                                  |
+|                                                     |                                                              | 6. Peluncuran API                                                                                                                                 |                                                                                      |                                                  |
+|                                                     |                                                              | 7. Pengumpulan Feedback                                                                                                                           |                                                                                      |                                                  |
+
+
+| **Aktor** | Tim Pengembang AstraPay               | Merchant, Tim Manajemen Produk (Partnership)             | Tim Keuangan (FBAT), Tim Manajemen Produk (Partnership) | Penyedia Teknologi dan Infrastruktur (Tech & Infra) |
+|-----------|---------------------------------------|------------------------|-----------------------|---------------------------------------------------|
+| **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | AstraPay Docs, Sandbox | Power BI         | GCP                                               |
+
+
+---
+
+
+
 
 - **Project Goal**:
     - Mengembangkan **Biller Open API** yang dapat diintegrasikan oleh berbagai aplikasi dan merchant untuk menawarkan layanan PPOB kepada lebih banyak pengguna.
