@@ -31,7 +31,6 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 | **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | AstraPay Docs, Sandbox | Power BI         | GCP                                               |
 
 
----
 
 ### 3. **Project Charter**:
 
