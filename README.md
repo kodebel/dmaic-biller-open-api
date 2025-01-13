@@ -62,7 +62,7 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
   - Meningkatkan pendapatan melalui layanan PPOB dan produk terkait.
   - Memperkuat posisi AstraPay sebagai penyedia layanan pembayaran terkemuka di Indonesia.
 
- **Project Timeline**:
+- **Project Timeline**:
   
   | **Steps**             | Deliverables       | Jan | Feb | Mar | Apr | May |
   |-----------------------|--------------------|-----|-----|-----|-----|-----|
@@ -82,5 +82,16 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
   - **Anton Rifco Susilo** (Head of AstraPay Product I)
 
 
-### **2. Measure (Ukur)**
-*Continue....*
+## **Measure (Ukur)**
+
+### **2. Data Collection**
+
+  - **Number of Transactions (NOT) & Gross Transaction Value (GTV) Biller (2021,2022,2023,2024)**
+
+  | **Tahun** | 2021 | 2022 | 2023 | 2024 |
+  |-----------|------|------|------|------|
+  | **NOT**   |      |      |      |      |
+  | **GTV**   |      |      |      |      |
+
+
+  - **Jumlah Merchant dan Integrasi API (https://astrapay.atlassian.net/wiki/spaces/PD/pages/2430926913/List+Merchant+On+Development)**
