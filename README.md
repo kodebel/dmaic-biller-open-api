@@ -88,10 +88,23 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
   - **Number of Transactions (NOT) & Gross Transaction Value (GTV) Biller (2021,2022,2023,2024)**
 
-  | **Tahun** | 2021 | 2022 | 2023 | 2024 |
-  |-----------|------|------|------|------|
-  | **NOT**   |      |      |      |      |
-  | **GTV**   |      |      |      |      |
+  | **Tahun** | 2021            | 2022              | 2023              | 2024              |
+  |-----------|-----------------|-------------------|-------------------|-------------------|
+  | **NOT**   | 981.654         | 7.160.844         | 8.782.376         | 9.052.735         |
+  | **GTV**   | 781.817.785.201 | 63.95.496.716.343 | 8.600.115.136.355 | 9.290.415.703.514 |
 
 
-  - **Jumlah Merchant dan Integrasi API (https://astrapay.atlassian.net/wiki/spaces/PD/pages/2430926913/List+Merchant+On+Development)**
+- **Jumlah Merchant yang menggunakan produk Payment Channel AstraPay Bisnis (https://astrapay.atlassian.net/wiki/spaces/PD/pages/2430926913/List+Merchant+On+Development)**
+
+ | **Merchant**                          | Ter-download (Playstore) |
+ |---------------------------------------|--------------------------|
+ | **Moxa**                              | 5jt+                     |
+ | **Bank Saqu**                         | 1jt+                     |
+ | **MotorkuX**                          | 1jt+                     |
+ | **Wahana Honda (Booking service)**    | 1jt+                     |
+ | **Daya Auto (Booking service)**       | 1jt+                     |
+ | **Brompit (Booking service)**         | 1jt+                     |
+ | **Paxel (Jasa logistik)**             | 1jt+                     |
+ | **Baqoel (Ecommerce sembako)**        | 5rb+                     |
+
+
