@@ -15,20 +15,20 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 ### 2. **Ringkasan SIPOC**
 
-| **Supplier**                                        | **Inputs**                                                    | **Process**                                                                                                                                       | **Outputs**                                                                            | **Customer**                                      |
-|-----------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
-| Tim Pengembang AstraPay (Product Team)              | Data Transaksi PPOB                                          | 1. Identifikasi Kebutuhan                                                                                                                      | Biller Open API                                                                    | Merchant yang Terhubung dengan AstraPay         |
-| Merchant (Moxa, Wanda, MotorkuX)                    | Kebutuhan dari Merchant                                       | 2. Perencanaan Pengembangan API                                                                                                                  | Dokumentasi API                                                                    | Aplikasi Pihak Ketiga (Moxa)                    |
-| Tim Manajemen Produk (Partnership)                  | Spesifikasi Fungsional API                                    | 3. Desain dan Pengembangan API                                                                                                                   | Peningkatan Adopsi Merchant                                                          | Pengguna Akhir (End-User)                       |
-| Tim Keuangan (FBAT)                                 | Dokumentasi API                                              | 4. Penyusunan Dokumentasi API                                                                                                                    | Laporan Feedback                                                                    | Tim Manajemen AstraPay                         |
-| Penyedia Teknologi dan Infrastruktur (Tech & Infra) | Platform Teknologi                                           | 5. Pengujian API                                                                                                                                 |                                                                                      |                                                  |
-|                                                     |                                                              | 6. Peluncuran API                                                                                                                                 |                                                                                      |                                                  |
-|                                                     |                                                              | 7. Pengumpulan Feedback                                                                                                                           |                                                                                      |                                                  |
+| **Supplier**                                        | **Inputs**                 | **Process**                     | **Outputs**                 | **Customer**                            |
+|-----------------------------------------------------|----------------------------|---------------------------------|-----------------------------|-----------------------------------------|
+| Tim Pengembang AstraPay (Product Team)              | Data Transaksi PPOB        | 1. Identifikasi Kebutuhan       | Biller Open API             | Merchant yang Terhubung dengan AstraPay |
+| Merchant (Moxa, Wanda, MotorkuX)                    | Kebutuhan dari Merchant    | 2. Perencanaan Pengembangan API | Dokumentasi API             | Aplikasi Pihak Ketiga (Moxa)            |
+| Tim Manajemen Produk (Partnership & BD)             | Spesifikasi Fungsional API | 3. Desain dan Pengembangan API  | Peningkatan Adopsi Merchant | Pengguna Akhir (End-User)               |
+| Tim Keuangan (FBAT)                                 | Dokumentasi API            | 4. Penyusunan Dokumentasi API   | Laporan Feedback            | Tim Manajemen AstraPay                  |
+| Penyedia Teknologi dan Infrastruktur (Tech & Infra) | Platform Teknologi         | 5. Pengujian API                |                             |                                         |
+|                                                     |                            | 6. Peluncuran API               |                             |                                         |
+|                                                     |                            | 7. Pengumpulan Feedback         |                             |                                         |
 
 
-| **Aktor** | Tim Pengembang AstraPay               | Merchant, Tim Manajemen Produk (Partnership)             | Tim Keuangan (FBAT), Tim Manajemen Produk (Partnership) | Penyedia Teknologi dan Infrastruktur (Tech & Infra) |
-|-----------|---------------------------------------|------------------------|-----------------------|---------------------------------------------------|
-| **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | AstraPay Docs, Sandbox | Power BI         | GCP                                               |
+| **Aktor** | Tim Pengembang AstraPay               | Merchant, Tim Manajemen Produk (Partnership & BD) | Tim Keuangan (FBAT), Tim Manajemen Produk (Partnership) | Penyedia Teknologi dan Infrastruktur (Tech & Infra) |
+|-----------|---------------------------------------|---------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------|
+| **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | AstraPay Docs, Sandbox                            | Power BI                                                | GCP                                                 |
 
 
 
@@ -62,8 +62,21 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
   - Meningkatkan pendapatan melalui layanan PPOB dan produk terkait.
   - Memperkuat posisi AstraPay sebagai penyedia layanan pembayaran terkemuka di Indonesia.
 
-- **Project Timeline**:
-  - (referensi ke jira inisiatif Biller Open API)
+ **Project Timeline**:
+  
+  | **Steps**             | Deliverables       | Jan | Feb | Mar | Apr | May |
+  |-----------------------|--------------------|-----|-----|-----|-----|-----|
+  | **Define**            | SIPOC              | X   |     |     |     |     |
+  |                       | Project Charter    | X   |     |     |     |     |
+  |                       | Project Approval   | X   |     |     |     |     |
+  | **Measure & Analyze** | Data Collection    |     | X   |     |     |     |
+  |                       | Data Visualization |     | X   |     |     |     |
+  |                       | Solutioning        |     | X   |     |     |     |
+  | **Improve**           | Implementation     |     |     | X   | X   | X   |
+  | **Control**           | Documentation      |     |     |     |     | X   |
+  |                       | ???                |     |     |     |     | X   |
+
+  *referensi link: https://astrapay.atlassian.net/jira/software/c/projects/PAY/boards/52/timeline?epic=COMPLETE12M&hideProgress=true&hideVersionHeader=true&issueParent=46511%2C64135&timeline=MONTHS*
 
 - **Project Approval**:
   - **Anton Rifco Susilo** (Head of AstraPay Product I)
