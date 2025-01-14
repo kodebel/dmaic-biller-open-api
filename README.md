@@ -124,3 +124,5 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
  | **Baqoel (Ecommerce sembako)**     | 5rb+                     |          |               | |
 
 
+## **Analyze (Analisis)**
+
