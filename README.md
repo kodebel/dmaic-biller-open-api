@@ -86,25 +86,41 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 ### **2. Data Collection**
 
-  - **Number of Transactions (NOT) & Gross Transaction Value (GTV) Biller (2021,2022,2023,2024)**
+  - **Number of Transactions (NOT) & Gross Transaction Value (GTV) Pertahun 2021 s.d 2024**
 
-  | **Tahun** | 2021            | 2022              | 2023              | 2024              |
-  |-----------|-----------------|-------------------|-------------------|-------------------|
-  | **NOT**   | 981.654         | 7.160.844         | 8.782.376         | 9.052.735         |
-  | **GTV**   | 781.817.785.201 | 63.95.496.716.343 | 8.600.115.136.355 | 9.290.415.703.514 |
+    - **All Transactions AstraPay**
+
+      | **Tahun** | 2021               | 2022               | 2023               | 2024               |
+      |-----------|--------------------|--------------------|--------------------|--------------------|
+      | **NOT**   | 7.159.199          | 32.002.140         | 59.882.424         | 80.658.857         |
+      | **GTV**   | 72.856.306.280.237 | 37.804.523.134.732 | 61.155.476.439.475 | 88.654.659.193.736 |
+    
+    - **Transaksi Biller**
+
+      | **Tahun** | 2021            | 2022              | 2023              | 2024              |
+      |-----------|-----------------|-------------------|-------------------|-------------------|
+      | **NOT**   | 981.654         | 7.160.844         | 8.782.376         | 9.052.735         |
+      | **GTV**   | 781.817.785.201 | 63.95.496.716.343 | 8.600.115.136.355 | 9.290.415.703.514 |
+
+    - **Transaksi Payment Channel AstraPay Bisnis**
+
+      | **Tahun** | 2023           | 2024            |
+      |-----------|----------------|-----------------|
+      | **NOT**   | 1.257.015      | 1.698.331       |
+      | **GTV**   | 76.309.766.385 | 194.976.678.921 |
 
 
 - **Jumlah Merchant yang menggunakan produk Payment Channel AstraPay Bisnis (https://astrapay.atlassian.net/wiki/spaces/PD/pages/2430926913/List+Merchant+On+Development)**
 
- | **Merchant**                          | Ter-download (Playstore) |
- |---------------------------------------|--------------------------|
- | **Moxa**                              | 5jt+                     |
- | **Bank Saqu**                         | 1jt+                     |
- | **MotorkuX**                          | 1jt+                     |
- | **Wahana Honda (Booking service)**    | 1jt+                     |
- | **Daya Auto (Booking service)**       | 1jt+                     |
- | **Brompit (Booking service)**         | 1jt+                     |
- | **Paxel (Jasa logistik)**             | 1jt+                     |
- | **Baqoel (Ecommerce sembako)**        | 5rb+                     |
+ | **Merchant**                       | Ter-download (Playstore) | NOT 2024 | GTV 2024      | |
+ |------------------------------------|--------------------------|----------|---------------|-|
+ | **Moxa**                           | 5jt+                     | 8.311    | 594.320.434   | |
+ | **MotorkuX**                       | 1jt+                     | 13       | 3.002.350     | |
+ | **Wahana Honda (Booking service)** | 1jt+                     | 107      | 21.837.851    | |
+ | **Daya Auto (Booking service)**    | 1jt+                     | 633      | 16.573.900    | |
+ | **Brompit (Booking service)**      | 1jt+                     | 1        | 65.350        | |
+ | **Paxel (Jasa logistik)**          | 1jt+                     | 33.047   | 1.347.610.222 | |
+ | **Bank Saqu**                      | 1jt+                     |          |               | |
+ | **Baqoel (Ecommerce sembako)**     | 5rb+                     |          |               | |
 
 
