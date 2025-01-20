@@ -90,10 +90,10 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
     - **All Transactions AstraPay**
 
-      | **Tahun** | 2021               | 2022               | 2023               | 2024               |
-      |-----------|--------------------|--------------------|--------------------|--------------------|
-      | **NOT**   | 7.159.199          | 32.002.140         | 59.882.424         | 80.658.857         |
-      | **GTV**   | 72.856.306.280.237 | 37.804.523.134.732 | 61.155.476.439.475 | 88.654.659.193.736 |
+      | **Tahun** | 2021               | 2022               | 2023               | 2024               | 2025 (Target KPI) |
+      |-----------|--------------------|--------------------|--------------------|--------------------|-------------------|
+      | **NOT**   | 7.159.199          | 32.002.140         | 59.882.424         | 80.658.857         | 86.3 Jt           |
+      | **GTV**   | 72.856.306.280.237 | 37.804.523.134.732 | 61.155.476.439.475 | 88.654.659.193.736 | 42.4 T            |
     
     - **Transaksi Biller**
 
@@ -156,8 +156,6 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
     - **Regulasi yang Membatasi**: Beberapa regulasi atau kebijakan pemerintah yang membatasi cara kerja atau pengelolaan data dalam integrasi pembayaran, yang dapat mempengaruhi adopsi API.
     - **Perubahan Teknologi atau Tren Pasar**: Perubahan dalam preferensi pasar atau teknologi yang digunakan oleh pengembang aplikasi dapat mempengaruhi keputusan untuk mengintegrasikan API AstraPay.
 
----
-
 ### **Diagram Visualisasi Fishbone**:
 
 ```plaintext
@@ -206,6 +204,13 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 ### **Kesimpulan dari Fishbone Diagram**:
 Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa mempengaruhi proses pengembangan dan adopsi **Biller Open API**. Beberapa faktor utama yang perlu segera ditangani adalah **kompleksitas integrasi API**, **kurangnya dukungan dan pelatihan untuk pengembang dan merchant**, **keterbatasan fitur dalam API**, serta **persaingan dengan penyedia PPOB lain**. Dengan fokus pada perbaikan di area ini, kita dapat meningkatkan proses integrasi API dan mempercepat adopsi oleh merchant dan aplikasi pihak ketiga.
+
+## **Improve (Perbaikan)**
+### 1. **Flow Integrasi Merchant Biller Open API**
+### 2. **Merchant Docs Biller Open API**
+    
+    -  
+
 
 
 
