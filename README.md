@@ -234,6 +234,7 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
   - Sequence Diagram API transaksi
   - [**POST**] Inquiry
     ```curl
+    -- request
       curl --location 'https://sandbox.astrapay.com/v1/mitra-service/inquiries' \
     --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
     --header 'x-timestamp: 2011-12-03T10:15:30' \
@@ -247,10 +248,57 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
         "periodStart": "2024-03-07",
         "periodEnd": "2024-03-07"   
     }'
+    
+    -- response
+    {
+    "id": 1422,
+    "type": "BPJS_KESEHATAN",
+    "productCode": "ASPOBPJ0000",
+    "serviceCharge": 0,
+    "totalPrice": 72500,
+    "margin": 0,
+    "grandTotal": 72500,
+    "message": null,
+    "status": "SUCCESS",
+    "paymentType": "STATIC",
+    "detailAdditionalData": [
+        {
+            "key": "transactionType",
+            "value": "BPJS Kesehatan",
+            "label": "Jenis Pembayaran"
+        },
+        {
+            "key": "beneficiaryNumber",
+            "value": "8888802883963273",
+            "label": "No. BPJS Kesehatan"
+        },
+        {
+            "key": "beneficiaryName",
+            "value": "Jarister Edwins Silalahi",
+            "label": "Nama Pemilik"
+        },
+        {
+            "key": "totalMembers",
+            "value": "2 orang",
+            "label": "Anggota Keluarga"
+        },
+        {
+            "key": "totalPeriods",
+            "value": "1 bulan",
+            "label": "Periode Bayar"
+        },
+        {
+            "key": "basicPrice",
+            "value": "Rp70",
+            "label": "Jumlah Tagihan"
+        }
+    ]
+    }
     ```
   - [**POST**] Transaksi
   
     ```curl
+    -- request
       curl --location 'https://sandbox.astrapay.com/v1/mitra-service/transactions' \
      --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
      --header 'x-timestamp: 2020-01-01T00:00:00' \
@@ -262,10 +310,70 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
      "inquiryId": "1422",
      "partnerRefenceNo": "1A23F45"
      }'
+    
+    -- response
+    {
+                "id": 1762,
+                "transactionNumber": "INV/BIL/ASU/240314/008OORD2ATP",
+                "type": "BPJS_KESEHATAN",
+                "productCode": "ASPOBPJ0000",
+                "beneficiaryNumber": "8888802883963273",
+                "serviceCharge": 2000,
+                "totalPrice": 72500,
+                "margin": 0,
+                "grandTotal": 72500,
+                "message": null,
+                "status": "PENDING",
+                "inquiryId": 1422,
+                "partnerReferenceNo": "1A23F45",
+                "detailAdditionalData": [
+                    {
+                        "key": "transactionNumber",
+                        "value": "INV/BIL/ASU/240314/008OORD2ATP",
+                        "label": "No. Transaksi"
+                    },
+                    {
+                        "key": "referenceNumberProvider",
+                        "value": "8BC3CC22FE669563",
+                        "label": "No. Referensi"
+                    },
+                    {
+                        "key": "transactionType",
+                        "value": "BPJS Kesehatan",
+                        "label": "Jenis Pembayaran"
+                    },
+                    {
+                        "key": "beneficiaryNumber",
+                        "value": "8888802883963273",
+                        "label": "No. BPJS Kesehatan"
+                    },
+                    {
+                        "key": "beneficiaryName",
+                        "value": "Jarister Edwins Silalahi",
+                        "label": "Nama Pemilik"
+                    },
+                    {
+                        "key": "totalMembers",
+                        "value": "2 orang",
+                        "label": "Anggota Keluarga"
+                    },
+                    {
+                        "key": "totalPeriods",
+                        "value": "1 bulan",
+                        "label": "Periode Bayar"
+                    },
+                    {
+                        "key": "basicPrice",
+                        "value": "Rp70",
+                        "label": "Jumlah Tagihan"
+                    }
+                ]
+            }
     ```
   
   - [**GET**] Status Transaksi
     ```curl
+    -- request
     curl --location 'https://sandbox.astrapay.com/v1/mitra-service/transactions/1762' \
     --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
     --header 'x-timestamp: 2024-02-22T10:39:30' \
@@ -273,6 +381,65 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
     --header 'x-external-id: 12d' \
     --header 'Authorization: Bearer DlHTC8U5urS6VDsWkNMv3ealeldgjR8H5CvYYfD8n5xxx' \
     --header 'Content-Type: application/json'
+    
+    -- response
+    {
+    "id": 1762,
+    "transactionNumber": "INV/BIL/ASU/240314/008OORD2ATP",
+    "type": "BPJS_KESEHATAN",
+    "productCode": "ASPOBPJ0000",
+    "beneficiaryNumber": "8888802883963273",
+    "serviceCharge": 2000,
+    "totalPrice": 72500,
+    "margin": 0,
+    "grandTotal": 72500,
+    "message": null,
+    "status": "SUCCESS",
+    "inquiryId": 1422,
+    "partnerReferenceNo": "1A23F45",
+    "detailAdditionalData": [
+        {
+            "key": "transactionNumber",
+            "value": "INV/BIL/ASU/240314/008OORD2ATP",
+            "label": "No. Transaksi"
+        },
+        {
+            "key": "referenceNumberProvider",
+            "value": "8BC3CC22FE669563",
+            "label": "No. Referensi"
+        },
+        {
+            "key": "transactionType",
+            "value": "BPJS Kesehatan",
+            "label": "Jenis Pembayaran"
+        },
+        {
+            "key": "beneficiaryNumber",
+            "value": "8888802883963273",
+            "label": "No. BPJS Kesehatan"
+        },
+        {
+            "key": "beneficiaryName",
+            "value": "Jarister Edwins Silalahi",
+            "label": "Nama Pemilik"
+        },
+        {
+            "key": "totalMembers",
+            "value": "2 orang",
+            "label": "Anggota Keluarga"
+        },
+        {
+            "key": "totalPeriods",
+            "value": "1 bulan",
+            "label": "Periode Bayar"
+        },
+        {
+            "key": "basicPrice",
+            "value": "Rp70",
+            "label": "Jumlah Tagihan"
+        }
+     ]
+    }
    ```
   
 ### 3. **Merchant Docs Biller Open API**
