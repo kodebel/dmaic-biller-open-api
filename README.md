@@ -208,14 +208,20 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
 ## **Improve (Perbaikan)**
 ### 1. **Flow Integrasi Merchant Biller Open API**
 - referensi flowchart: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API#Flow
-- addjust flowchart sampai merchant live production
+- addjust flowchart sampai merchant live production (Done)
 
  
 ### 2. **Merchant Docs Biller Open API**
 - referensi link: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API
-- jelaskan 3 transaksi, 2 api athorization, 1 api products
+- API Keamanan
+  - Sequence Diagram Keamanan
+- API Transaksi
+  - Sequence Diagram transaksi
+
+
+## **Improve (Perbaikan)**
     
-    -  
+      -  
 
 
 
