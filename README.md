@@ -228,11 +228,55 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
 ### 2. **Flow Transaksi Biller Open API**
 - referensi link: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API
 - API Keamanan
-  - Sequence Diagram Keamanan
-  - 
+  - Sequence Diagram API Keamanan
+  
 - API Transaksi
-  - Sequence Diagram transaksi
-
+  - Sequence Diagram API transaksi
+  - [**POST**] Inquiry
+    ```curl
+      curl --location 'https://sandbox.astrapay.com/v1/mitra-service/inquiries' \
+    --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
+    --header 'x-timestamp: 2011-12-03T10:15:30' \
+    --header 'x-signature: 1111111' \
+    --header 'x-external-id: 111111' \
+    --header 'Authorization: Bearer DlHTC8U5urS6VDsWkNMv3ealeldgjR8H5CvYYfD8n5xxx' \
+    --header 'Content-Type: application/json' \
+    --data '{
+        "beneficiaryNumber": "8888802883963273",
+        "productCode": "ASPOBPJ0000",
+        "periodStart": "2024-03-07",
+        "periodEnd": "2024-03-07"   
+    }'
+    ```
+  - [**POST**] Transaksi
+  
+    ```curl
+      curl --location 'https://sandbox.astrapay.com/v1/mitra-service/transactions' \
+     --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
+     --header 'x-timestamp: 2020-01-01T00:00:00' \
+     --header 'x-signature: aa' \
+     --header 'x-external-id: aa' \
+     --header 'Authorization: Bearer DlHTC8U5urS6VDsWkNMv3ealeldgjR8H5CvYYfD8n5xxx' \
+     --header 'Content-Type: application/json' \
+     --data '{
+     "inquiryId": "1422",
+     "partnerRefenceNo": "1A23F45"
+     }'
+    ```
+  
+  - [**GET**] Status Transaksi
+    ```curl
+    curl --location 'https://sandbox.astrapay.com/v1/mitra-service/transactions/1762' \
+    --header 'x-partner-id: f37e5edf-8d99-40ab-b8f0-f0f0f12f41b5' \
+    --header 'x-timestamp: 2024-02-22T10:39:30' \
+    --header 'x-signature: ede31' \
+    --header 'x-external-id: 12d' \
+    --header 'Authorization: Bearer DlHTC8U5urS6VDsWkNMv3ealeldgjR8H5CvYYfD8n5xxx' \
+    --header 'Content-Type: application/json'
+   ```
+  
+### 3. **Merchant Docs Biller Open API**
+- referensi link: https://astrapay.com/docs/api/#1-introduction-biller
 
 ## **Improve (Perbaikan)**
     
