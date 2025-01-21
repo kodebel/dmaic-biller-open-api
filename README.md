@@ -207,14 +207,29 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
 
 ## **Improve (Perbaikan)**
 ### 1. **Flow Integrasi Merchant Biller Open API**
+
+- Deskripsi flow
+  - **Partnership**: Melakukan akuisisi merchant yang akan menggunakan Biller Open API AstraPay
+  - **Partnership**: Memastikan perjanjian kerjasama
+  - **Merchant**: Menyetujui perjanjian kerjasama dan memberikan dokumen yang dibutuhkan
+  - **Partnership**: Melakukan verifikasi form pendafataran merchant
+  - **Operation Dept.**: Melakukan pendaftaran merchant di sistem AstraPay sebagai business entity dan Mitra AstraPay
+  - **Operation Dept.**: Generate Client ID dan Client Secret untuk merchant
+  - **Merchant**: Memberikan Public Key untuk integrasi API
+  - **Merchant**: Melakukan Top up deposit di AstraPay
+  - **Operation Dept.**: Menyimpan public key merchant pada sistem AstraPay
+  - **Operation Dept.**: Ubah status Merchant di Mitra AstraPay menjadi Aktif jika Merchant sudah deposit
+  
+
 - referensi flowchart: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API#Flow
 - addjust flowchart sampai merchant live production (Done)
 
  
-### 2. **Merchant Docs Biller Open API**
+### 2. **Flow Transaksi Biller Open API**
 - referensi link: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API
 - API Keamanan
   - Sequence Diagram Keamanan
+  - 
 - API Transaksi
   - Sequence Diagram transaksi
 
