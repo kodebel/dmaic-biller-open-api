@@ -70,11 +70,8 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
   |                       | Project Charter    | X   |     |     |     |     |
   |                       | Project Approval   | X   |     |     |     |     |
   | **Measure & Analyze** | Data Collection    |     | X   |     |     |     |
-  |                       | Data Visualization |     | X   |     |     |     |
-  |                       | Solutioning        |     | X   |     |     |     |
   | **Improve**           | Implementation     |     |     | X   | X   | X   |
   | **Control**           | Documentation      |     |     |     |     | X   |
-  |                       | ???                |     |     |     |     | X   |
 
   *referensi link: https://astrapay.atlassian.net/jira/software/c/projects/PAY/boards/52/timeline?epic=COMPLETE12M&hideProgress=true&hideVersionHeader=true&issueParent=46511%2C64135&timeline=MONTHS*
 
