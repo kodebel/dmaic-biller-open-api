@@ -227,9 +227,6 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
  
 ### 2. **Pengembangan Biller Open API**
 - referensi link: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API
-- API Keamanan
-  - Sequence Diagram API Keamanan
-  
 - API Transaksi
   - Sequence Diagram API transaksi
   - [**POST**] Inquiry 
@@ -294,7 +291,7 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
         }
     ]
     }
-    ```
+    
   - [**POST**] Transaksi
   
     ```curl
@@ -369,7 +366,6 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
                     }
                 ]
             }
-    ```
   
   - [**GET**] Status Transaksi
     ```curl
@@ -440,14 +436,14 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
         }
      ]
     }
-   ```
-  
-### 3. **Pengembangan Merchant Docs Biller Open API**
-- Pembuatan dokumentasi 
+    
+### 3. **Merchant Docs Biller Open API**
+- Pada Menu Biller berisi dokumentasi yang menjelaskan procedur acceptance untuk implementasi Biller Open API dari perspektif Merchant
+- Capture menu nya dari Biller
 - referensi link: https://astrapay.com/docs/api/#1-introduction-biller
 
-## **Control (Kontrol)**
 
+## **Control (Kontrol)**
 ### 1. **Merchant Dashboard AstraPay Bisnis (Merchant Biller Open API)**
     
 - Hompage Dashboard Merchant yang terdiri dari Menu Utama Mitra dan Saldo
