@@ -28,7 +28,7 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 | **Aktor** | Tim Pengembang AstraPay               | Merchant, Tim Manajemen Produk (Partnership & BD) | Tim Keuangan (FBAT), Tim Manajemen Produk (Partnership) | Penyedia Teknologi dan Infrastruktur (Tech & Infra) |
 |-----------|---------------------------------------|---------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------|
-| **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | AstraPay Docs, Sandbox                            | Power BI                                                | GCP                                                 |
+| **Tools** | IDE, Jira, Jenkins, Github, Ms. Teams | Merchant Docs, Sandbox                            | Power BI                                                | GCP                                                 |
 
 
 
