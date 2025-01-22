@@ -79,6 +79,7 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
   - **Anton Rifco Susilo** (Head of AstraPay Product I)
 
 
+
 ## **Measure (Ukur)**
 
 ### **1. Data Collection**
@@ -119,6 +120,8 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
  | **Paxel (Jasa logistik)**          | 1jt+                     | 33.047   | 1.347.610.222 | |
  | **Bank Saqu**                      | 1jt+                     |          |               | |
  | **Baqoel (Ecommerce sembako)**     | 5rb+                     |          |               | |
+
+
 
 
 ## **Analyze (Analisis)**
@@ -201,6 +204,8 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 ### **Kesimpulan dari Fishbone Diagram**:
 Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa mempengaruhi proses pengembangan dan adopsi **Biller Open API**. Beberapa faktor utama yang perlu segera ditangani adalah **kompleksitas integrasi API**, **kurangnya dukungan dan pelatihan untuk pengembang dan merchant**, **keterbatasan fitur dalam API**, serta **persaingan dengan penyedia PPOB lain**. Dengan fokus pada perbaikan di area ini, kita dapat meningkatkan proses integrasi API dan mempercepat adopsi oleh merchant dan aplikasi pihak ketiga.
+
+
 
 ## **Improve (Perbaikan)**
 ### 1. **Proses Integrasi Merchant Biller Open API**
@@ -438,6 +443,7 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
 - Pada Menu Biller berisi dokumentasi yang menjelaskan procedur acceptance untuk implementasi Biller Open API dari perspektif Merchant
 - Capture menu nya dari Biller
 - referensi link: https://astrapay.com/docs/api/#1-introduction-biller
+
 
 
 ## **Control (Kontrol)**
