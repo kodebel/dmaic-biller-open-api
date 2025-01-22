@@ -206,7 +206,7 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa mempengaruhi proses pengembangan dan adopsi **Biller Open API**. Beberapa faktor utama yang perlu segera ditangani adalah **kompleksitas integrasi API**, **kurangnya dukungan dan pelatihan untuk pengembang dan merchant**, **keterbatasan fitur dalam API**, serta **persaingan dengan penyedia PPOB lain**. Dengan fokus pada perbaikan di area ini, kita dapat meningkatkan proses integrasi API dan mempercepat adopsi oleh merchant dan aplikasi pihak ketiga.
 
 ## **Improve (Perbaikan)**
-### 1. **Flow Integrasi Merchant Biller Open API**
+### 1. **Proses Integrasi Merchant Biller Open API**
 
 - Deskripsi flow
   - **Partnership**: Melakukan akuisisi merchant yang akan menggunakan Biller Open API AstraPay
@@ -225,14 +225,14 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
 - addjust flowchart sampai merchant live production (Done)
 
  
-### 2. **Flow Transaksi Biller Open API**
+### 2. **Pengembangan Biller Open API**
 - referensi link: https://astrapay.atlassian.net/wiki/spaces/PD/pages/2643394562/Version+1.1+Enterprise+RFC+Technical+Implementation+-+Open+API+Biller+Open+API
 - API Keamanan
   - Sequence Diagram API Keamanan
   
 - API Transaksi
   - Sequence Diagram API transaksi
-  - [**POST**] Inquiry
+  - [**POST**] Inquiry 
     ```curl
     -- request
       curl --location 'https://sandbox.astrapay.com/v1/mitra-service/inquiries' \
@@ -442,10 +442,27 @@ Diagram ini membantu kita mengidentifikasi berbagai faktor penyebab yang bisa me
     }
    ```
   
-### 3. **Merchant Docs Biller Open API**
+### 3. **Pengembangan Merchant Docs Biller Open API**
+- Pembuatan dokumentasi 
 - referensi link: https://astrapay.com/docs/api/#1-introduction-biller
 
-## **Improve (Perbaikan)**
+## **Control (Kontrol)**
+
+### 1. **Merchant Dashboard AstraPay Bisnis (Merchant Biller Open API)**
+    
+- Hompage Dashboard Merchant yang terdiri dari Menu Utama Mitra dan Saldo
+- Menu Mitra terdapat fitur untuk melihat produk yang dapat mengubah keuntungan setiap produk
+- Menu Mitra terdapat fitur untuk melihat transaksi yang menggunakan Biller Open API
+- Menu Saldo terdapat fitur untuk melihat mutasi deposit dan bantuan untuk melakukan top up deposit
+
+
+### 2. **Admin Dashboard AstraPay**
+- Menu Mitra terdapat fitur untuk melihat transaksi yang menggunakan Biller Open API menggunakan
+- Menu Mitra terdapat fitur untuk melihat dan mengatur produk dan biaya layanan dari setiap merchant Biller Open API
+
+
+note: sertakan gambar setiap fitur
+
     
       -  
 
