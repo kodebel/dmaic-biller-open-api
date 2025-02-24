@@ -64,14 +64,14 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 - **Project Timeline**:
   
-  | **Steps**             | Deliverables       | Jan | Feb | Mar | Apr | May |
-  |-----------------------|--------------------|-----|-----|-----|-----|-----|
-  | **Define**            | SIPOC              | X   |     |     |     |     |
-  |                       | Project Charter    | X   |     |     |     |     |
-  |                       | Project Approval   | X   |     |     |     |     |
-  | **Measure & Analyze** | Data Collection    |     | X   |     |     |     |
-  | **Improve**           | Implementation     |     |     | X   | X   | X   |
-  | **Control**           | Documentation      |     |     |     |     | X   |
+  | **Steps**             | Deliverables     | Jan '25 | Feb '25 | Mar '25 | Apr '25 | May '25 |
+  |-----------------------|------------------|---------|---------|---------|---------|---------|
+  | **Define**            | SIPOC            | X       |         |         |         |         |
+  |                       | Project Charter  | X       |         |         |         |         |
+  |                       | Project Approval | X       |         |         |         |         |
+  | **Measure & Analyze** | Data Collection  |         | X       |         |         |         |
+  | **Improve**           | Implementation   |         |         | X       | X       | X       |
+  | **Control**           | Documentation    |         |         |         |         | X       |
 
   *referensi link: https://astrapay.atlassian.net/jira/software/c/projects/PAY/boards/52/timeline?epic=COMPLETE12M&hideProgress=true&hideVersionHeader=true&issueParent=46511%2C64135&timeline=MONTHS*
 
