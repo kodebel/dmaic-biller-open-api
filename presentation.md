@@ -3,7 +3,7 @@ Berikut adalah outline untuk slides presentasi berdasarkan DMAIC (Define, Measur
 ---
 
 ### **Slide 1: Cover Slide**
-- **Judul**: Pembuatan Biller Open API AstraPay Bisnis
+- **Judul**: Pengembangan Biller Open API AstraPay Bisnis untuk Meningkatkan NOT dan GTV melalui Integrasi PPOB
 - **Subjudul**: Menggunakan Metodologi DMAIC (Define, Measure, Analyze, Improve, Control)
 - **Tim**: Baginda Syarif H., Fedora Ramadhanty W.P., Florentina Vela N., Rayyan Fathurrahman A., Kevin Kuwito
 - **Tanggal**: [Tanggal Presentasi]
