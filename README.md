@@ -64,7 +64,7 @@ Moxa, Wanda, dan MotorkuX adalah beberapa contoh merchant yang tergabung dalam A
 
 - **Project Timeline**:
   
-  | **Steps**             | Deliverables     | Jan '25 | Feb '25 | Mar '25 | Apr '25 | May '25 |
+  | **Steps**             | Deliverables     | Jan '24 | Feb '24 | Mar '24 | Apr '24 | May '24 |
   |-----------------------|------------------|---------|---------|---------|---------|---------|
   | **Define**            | SIPOC            | X       |         |         |         |         |
   |                       | Project Charter  | X       |         |         |         |         |
